@@ -26,3 +26,4 @@ switch($view)
     $Oscarrest = new OscarrestKezelo();
     
 }
+?>
