@@ -23,7 +23,7 @@ class Oscar{
         $query = "SELECT m_ID,title,m_desc,pic,movie_type.Mt
         FROM movie
         INNER JOIN movie_type on movie_type.Mt_ID = movie.m_type
-        WHERE movie_type.Mt_name= ?"
+        WHERE movie_type.Mt_name= ?";
         return $this->db->executeSelectQuery($query [$OscarId]);
     }
 }

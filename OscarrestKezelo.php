@@ -94,7 +94,7 @@ class OscarrestKezelo extends RestKezelo
 
     function encodeJson($responseData)
     {
-        return json_encode($responseData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
+        return json_encode($responseData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     }
 
     function printfile($responseData,$file_path)
